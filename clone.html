@@ -1,0 +1,439 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet">
+
+    <link rel="stylesheet" href="./clone.css">
+    <title>Учебный центр 2</title>
+</head>
+<body>
+
+        <nav>
+            <div style="display:flex;align-items: center; gap: 2px;">
+                <a href="main"><img src="./images/your-logo-103-5925.png"></a>
+                <a style="text-decoration: dashed;" href=""><strong class="text-msu">Учебный центр</strong></a>
+                
+            </div>
+            <div class="nav_links" id="navLinks">
+                <i class='bx bx-x' style="color: rgb(255, 255, 255);" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="#classes">Наши курсы</a></li>  
+                    <li><a href="#teachers">Наши учителя</a></li>  
+                    <li><a href="#contacts">Контакты</a></li>
+                    <!-- <li><a href="aboutUs">Бизлер хаккимизда</a></li> -->
+                </ul>
+            </div>
+            <a href="TEL:+998910054724"><button>91 005 47 24</button></a>
+            
+            <i class='bx bx-menu' onclick="showMenu()" ></i>
+        </nav>
+
+        <section class="main">
+            <div class="info">
+                <h1>Учебный центр</h1>
+                <p>Ваш учебный центр — это отличное место для учебы, особенно для тех, кто стремится к успеху и хочет построить прочную основу для своего будущего.</p>
+            </div>
+            <div class="form-container">
+                <h2>Записаться на первый урок!</h2>
+                <p>Оставьте заявку и наш менеджер свяжется с вами.</p>
+                <form id="signupForm">
+                    <input type="text" placeholder="Ваше имя" id="name" required>
+                    <input type="tel" placeholder="ваш телефон номер" id="phone" >
+                    <button type="submit">Записаться</button>
+                </form>
+            </div>
+        </section>
+
+        <section class="cources" id="classes">
+            <h1>Наши Курсы</h1>
+            <div class="subject subjects-first-line">
+                <div>
+                    <img class="classes-img" src="images/math.jpg" alt="">
+                    <p class="subject-name">Курсы по математике</p>
+                    <a href="TEL:+998910054724"><button class="classes-btn">91 005 47 24</button></a>
+                </div>
+                <div>
+                    <img class="classes-img" src="images/ielts.jpeg" alt="">
+                    <p class="subject-name">Курсы по английскому языку</p>
+                    <a href="TEL:+998910054724"><button class="classes-btn">91 005 47 24</button></a>
+                </div>
+                <div>
+                    <img class="classes-img" src="images/chemistry.jpg" alt="">
+                    <p class="subject-name">Курсы по химии</p>
+                    <a href="TEL:+998910054724"><button class="classes-btn">91 005 47 24</button></a>
+                </div>
+            </div>
+            <div class="subject subjects-second-line">
+                <div>
+                    <img class="classes-img" src="images/history-background-signs-and-symbols-education-vector-46698039.jpg" alt="">
+                    <p class="subject-name">Курсы по истории</p>
+                    <a href="TEL:+998910054724"><button class="classes-btn">91 005 47 24</button></a>
+                </div>
+                <div>
+                    <img class="classes-img" src="images/mxiGEFEKo3Rxh0YGolWM.png" alt="">
+                    <p class="subject-name">Курсы по литературе</p>
+                    <a href="TEL:+998910054724"><button class="classes-btn">91 005 47 24</button></a>
+                </div>
+            </div>
+
+            
+            <div class="planshet line-one">
+                <div>
+                    <img class="classes-img" src="images/math.jpg" alt="">
+                    <p class="subject-name">Курсы по математике</p>
+                    <a href="TEL:+998910054724"><button class="classes-btn">91 005 47 24</button></a>
+                </div>
+                <div>
+                    <img class="classes-img" src="images/ielts.jpeg" alt="">
+                    <p class="subject-name">Курсы по английскому языку</p>
+                    <a href="TEL:+998910054724"><button class="classes-btn">91 005 47 24</button></a>
+                </div>
+            </div>
+            <div class="planshet line-two">
+                <div>
+                    <img class="classes-img" src="images/chemistry.jpg" alt="">
+                    <p class="subject-name">Курсы по химии</p>
+                    <a href="TEL:+998910054724"><button class="classes-btn">91 005 47 24</button></a>
+                </div>
+                <div>
+                    <img class="classes-img" src="images/history-background-signs-and-symbols-education-vector-46698039.jpg" alt="">
+                    <p class="subject-name">Курсы по истории</p>
+                    <a href="TEL:+998910054724"><button class="classes-btn">91 005 47 24</button></a>
+                </div>
+            </div>
+            <div class="planshet line-three">
+                <div>
+                    <img class="classes-img" src="images/mxiGEFEKo3Rxh0YGolWM.png" alt="">
+                    <p class="subject-name">Курсы по литературе</p>
+                    <a href="TEL:+998910054724"><button class="classes-btn">91 005 47 24</button></a>
+                </div>
+            </div>
+
+
+
+            <div class="mobile line-one">
+                <div>
+                    <img class="classes-img" src="images/math.jpg" alt="">
+                    <p class="subject-name">Курсы по математике</p>
+                    <a href="TEL:+998910054724"><button class="classes-btn">91 005 47 24</button></a>
+                </div>
+            </div>
+            <div class="mobile line-two">
+                <div>
+                    <img class="classes-img" src="images/ielts.jpeg" alt="">
+                    <p class="subject-name">Курсы по английскому языку</p>
+                    <a href="TEL:+998910054724"><button class="classes-btn">91 005 47 24</button></a>
+                </div>
+            </div>
+            <div class="mobile line-three">
+                <div>
+                    <img class="classes-img" src="images/chemistry.jpg" alt="">
+                    <p class="subject-name">Курсы по химии</p>
+                    <a href="TEL:+998910054724"><button class="classes-btn">91 005 47 24</button></a>
+                </div>
+            </div>
+            <div class="mobile line-four">
+                <div>
+                    <img class="classes-img" src="images/history-background-signs-and-symbols-education-vector-46698039.jpg" alt="">
+                    <p class="subject-name">Курсы по истории</p>
+                    <a href="TEL:+998910054724"><button class="classes-btn">91 005 47 24</button></a>
+                </div>
+            </div>
+            <div class="mobile line-five">
+                <div>
+                    <img class="classes-img" src="images/mxiGEFEKo3Rxh0YGolWM.png" alt="">
+                    <p class="subject-name">Курсы по литературе</p>
+                    <a href="TEL:+998910054724"><button class="classes-btn">91 005 47 24</button></a>
+                </div>
+            </div>
+
+            
+        </section>
+
+        <section class="teachers" id="teachers">
+            <h1>Наши учителя</h1>
+            <div class="desktop line-one">
+                <div>
+                    <img class="teacher-img" src="images/teacher.png" alt="">
+                    <div class="teacher-info">
+                        <p class="teacher-name">Muzaffar Kulbaev</p>
+                        <p class="teacher-subject">Учитель по математике. Опыт работы 6 лет. Количество студентов 200+</p>
+                    </div>
+                </div>
+                <div>
+                    <img class="teacher-img" src="images/teacher.png" alt="">
+                    <div class="teacher-info">
+                        <p class="teacher-name">Muzaffar Kulbaev</p>
+                        <p class="teacher-subject">Учитель по химии. Опыт работы 6 лет. Количество студентов 200+</p>
+                    </div>
+                </div>
+                <div>
+                    <img class="teacher-img" src="images/teacher.png" alt="">
+                    <div class="teacher-info">
+                        <p class="teacher-name">Muzaffar Kulbaev</p>
+                        <p class="teacher-subject">Учитель по биологии. Опыт работы 6 лет. Количество студентов 200+</p>
+                    </div>
+                </div>
+            </div>
+            <div class="desktop line-two">
+                <div>
+                    <img class="teacher-img" src="images/teacher.png" alt="">
+                    <div class="teacher-info">
+                        <p class="teacher-name">Muzaffar Kulbaev</p>
+                        <p class="teacher-subject">Учитель по литературе. Опыт работы 6 лет. Количество студентов 200+</p>
+                    </div>
+                </div>
+                <div>
+                    <img class="teacher-img" src="images/teacher.png" alt="">
+                    <div class="teacher-info">
+                        <p class="teacher-name">Muzaffar Kulbaev</p>
+                        <p class="teacher-subject">Учитель по английскому языку. Опыт работы 6 лет. Количество студентов 200+</p>
+                    </div>
+                </div>
+            </div>
+            
+            
+            
+            
+            <div class="planshet line-one">
+                <div>
+                    <img class="teacher-img" src="images/teacher.png" alt="">
+                    <div class="teacher-info">
+                        <p class="teacher-name">Muzaffar Kulbaev</p>
+                        <p class="teacher-subject">Учитель по математике. Опыт работы 6 лет. Количество студентов 200+</p>
+                    </div>
+                </div>
+                <div>
+                    <img class="teacher-img" src="images/teacher.png" alt="">
+                    <div class="teacher-info">
+                        <p class="teacher-name">Muzaffar Kulbaev</p>
+                        <p class="teacher-subject">Учитель по английскому языку. Опыт работы 6 лет. Количество студентов 200+</p>
+                    </div>
+                </div>
+            </div>
+            <div class="planshet line-two">
+                <div>
+                    <img class="teacher-img" src="images/teacher.png" alt="">
+                    <div class="teacher-info">
+                        <p class="teacher-name">Muzaffar Kulbaev</p>
+                        <p class="teacher-subject">Учитель по литературе. Опыт работы 6 лет. Количество студентов 200+</p>
+                    </div>
+                </div>
+                <div>
+                    <img class="teacher-img" src="images/teacher.png" alt="">
+                    <div class="teacher-info">
+                        <p class="teacher-name">Muzaffar Kulbaev</p>
+                        <p class="teacher-subject">Учитель по биологии. Опыт работы 6 лет. Количество студентов 200+</p>
+                    </div>
+                </div>
+            </div>
+            <div class="planshet line-three">
+                <div>
+                    <img class="teacher-img" src="images/teacher.png" alt="">
+                    <div class="teacher-info">
+                        <p class="teacher-name">Muzaffar Kulbaev</p>
+                        <p class="teacher-subject">Учитель по химии. Опыт работы 6 лет. Количество студентов 200+</p>
+                    </div>
+                </div>
+            </div>
+
+
+            <!-- <div class="mobile line-one">
+                <div class="accardeon">
+                    <button class="teacher-btn" onclick="showPreviousTeacher()">Prev</button>
+                        <div class="active">
+                            <img class="teacher-img" src="images/teacher.png" alt="">
+                            <div class="teacher-info">
+                                <p class="teacher-name">Muzaffar Kulbaev</p>
+                                <p class="teacher-subject">Учитель по математике. Опыт работы 6 лет. Количество студентов 200+</p>
+                            </div>
+                        </div>
+                        <div>
+                            <img class="teacher-img" src="images/teacher.png" alt="">
+                            <div class="teacher-info">
+                                <p class="teacher-name">Muzaffar Kulbaev</p>
+                                <p class="teacher-subject">Учитель по математике. Опыт работы 6 лет. Количество студентов 200+</p>
+                            </div>
+                        </div>
+                        <div>
+                            <img class="teacher-img" src="images/teacher.png" alt="">
+                            <div class="teacher-info">
+                                <p class="teacher-name">Muzaffar Kulbaev</p>
+                                <p class="teacher-subject">Учитель по математике. Опыт работы 6 лет. Количество студентов 200+</p>
+                            </div>
+                        </div>
+                        <div>
+                            <img class="teacher-img" src="images/teacher.png" alt="">
+                            <div class="teacher-info">
+                                <p class="teacher-name">Muzaffar Kulbaev</p>
+                                <p class="teacher-subject">Учитель по математике. Опыт работы 6 лет. Количество студентов 200+</p>
+                            </div>
+                        </div>
+                    <button class="teacher-btn" onclick="showNextTeacher()">Next</button>
+                </div>
+            </div> -->
+
+            
+
+            <div class="mobile line-one">
+                <div>
+                    <img class="teacher-img" src="images/teacher.png" alt="">
+                    <div class="teacher-info">
+                        <p class="teacher-name">Muzaffar Kulbaev</p>
+                        <p class="teacher-subject">Учитель по математике. Опыт работы 6 лет. Количество студентов 200+</p>
+                    </div>
+                </div>
+            </div>
+            <div class="mobile line-two">
+                <div>
+                    <img class="teacher-img" src="images/teacher.png" alt="">
+                    <div class="teacher-info">
+                        <p class="teacher-name">Muzaffar Kulbaev</p>
+                        <p class="teacher-subject">Учитель по английскому языку. Опыт работы 6 лет. Количество студентов 200+</p>
+                    </div>
+                </div>
+            </div>
+            <div class="mobile line-three">
+                <div>
+                    <img class="teacher-img" src="images/teacher.png" alt="">
+                    <div class="teacher-info">
+                        <p class="teacher-name">Muzaffar Kulbaev</p>
+                        <p class="teacher-subject">Учитель по литературе. Опыт работы 6 лет. Количество студентов 200+</p>
+                    </div>
+                </div>
+            </div>
+            <div class="mobile line-four">
+                <div>
+                    <img class="teacher-img" src="images/teacher.png" alt="">
+                    <div class="teacher-info">
+                        <p class="teacher-name">Muzaffar Kulbaev</p>
+                        <p class="teacher-subject">Учитель по биологии. Опыт работы 6 лет. Количество студентов 200+</p>
+                    </div>
+                </div>
+            </div>
+            <div class="mobile line-five">
+                <div>
+                    <img class="teacher-img" src="images/teacher.png" alt="">
+                    <div class="teacher-info">
+                        <p class="teacher-name">Muzaffar Kulbaev</p>
+                        <p class="teacher-subject">Учитель по химии. Опыт работы 6 лет. Количество студентов 200+</p>
+                    </div>
+                </div>
+            </div>
+
+        </section>
+
+        <section class="results">
+            <div class="images">
+                <img class="flag" src="./images/flag.png" alt="">
+                <img class="man" src="./images/business-man-photo-50-removebg-preview.png" alt="">
+            </div>
+            <div class="result-img">
+                <p class="result-text"><p class="word-one">Результаты</p> <p class="word-two">IELTS</p> <p class="word-three">наших студентов</p> <p class="word-four">Знакомьтесь с радующими глаз результатами наших учеников !</p></p>
+                <div class="accardeon">
+                    <button class="slide-btn" onclick="showPreviousImage()">Prev</button>
+                    <div class="image-container">
+                        <img src="./images/001.jpg" alt="" class="active"> 
+                        <img src="./images/002.jpg" alt="">
+                        <img src="./images/003.jpg" alt="">
+                        <img src="./images/004.jpg" alt="">
+                    </div>
+                    <button class="slide-btn" onclick="showNextImage()">Next</button>
+                </div>
+            </div>
+        </section>
+
+        <section class="contacts" id="contacts">
+            <div class="links">
+                <div class="icons">
+                    <a href="https://www.instagram.com/muzaffar_kulbaev/"><img src="./images/Instagram.png" alt=""></a>
+                    <a href="TEL:+998910054724"><button>91 005 47 24</button></a>
+                    <a href="https://t.me/KM3009"><img src="./images/telegram-removebg-preview.png" alt=""></a>
+                </div>
+                <div class="map">
+                    <img src="images/map.jpg" alt="">
+                </div>
+            </div>
+            <div class="form-container">
+                <h2>Записаться на первый урок!</h2>
+                <p>Оставьте заявку и наш менеджер свяжется с вами.</p>
+                <form id="signupForm">
+                    <input type="text" placeholder="Ваше имя" id="name" required>
+                    <input type="tel" placeholder="ваш телефон номер" id="phone" >
+                    <button type="submit">Записаться</button>
+                </form>
+            </div>
+            
+        </section>
+
+        <script>
+
+            let currentIndex = 0;
+            const images = document.querySelectorAll('.image-container img');
+
+            function showNextImage() {
+                images[currentIndex].classList.remove('active'); // Скрываем текущее изображение
+                currentIndex = (currentIndex + 1) % images.length; // Переходим к следующему изображению
+                images[currentIndex].classList.add('active'); // Отображаем следующее изображение
+            }
+
+            function showPreviousImage() {
+                images[currentIndex].classList.remove('active'); // Скрываем текущее изображение
+                currentIndex = (currentIndex - 1 + images.length) % images.length; // Переходим к предыдущему изображению
+                images[currentIndex].classList.add('active'); // Отображаем предыдущее изображение
+            }
+
+            document.getElementById("signupForm").addEventListener("submit", function(event) {
+                event.preventDefault();
+
+                const name = document.getElementById("name").value;
+                const phone = document.getElementById("phone").value;
+
+                // Вставьте сюда ваш токен и Chat ID
+                const message = `Заявка на первый урок:\nИмя: ${name}\nТелефон: ${phone}`;
+
+
+                const botToken = "7949247038:AAE-3V2BpZLSwn3GRC5aT7McEWAGHn-sBPo"; // Ваш токен бота
+                const chatId = "1949411152"; // Ваш Chat ID
+
+                fetch(`https://api.telegram.org/bot${botToken}/sendMessage`, {
+                    method: "POST",
+                    headers: {
+                        "Content-Type": "application/json"
+                    },
+                    body: JSON.stringify({
+                        chat_id: chatId,
+                        text: message
+                    })
+                })
+
+                .then(response => response.json())
+                .then(data => {
+                    if (data.ok) {
+                        alert("Заявка успешно отправлена!");
+                    } else {
+                        alert("Ошибка отправки заявки. Попробуйте снова.");
+                    }
+                })
+                .catch(error => {
+                    console.error("Ошибка:", error);
+                    alert("Ошибка отправки заявки. Проверьте подключение к интернету.");
+                });
+            });
+
+            var navLinks = document.getElementById("navLinks");
+            
+            function showMenu(){
+                navLinks.style.right = "0";
+            }
+    
+            function hideMenu(){
+                navLinks.style.right = "-230px";
+            }
+        </script>
+
+
+</body>
+</html>
